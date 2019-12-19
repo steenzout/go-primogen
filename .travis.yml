@@ -1,7 +1,7 @@
 language: go
 cache:
   directories:
-    - "${GOPATH}/bin
+    - "${GOPATH}/bin"
 
 go:
   - tip
