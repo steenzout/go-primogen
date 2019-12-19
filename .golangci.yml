@@ -1,0 +1,21 @@
+linter-settings:
+  goimports:
+    local-prefixes: github.com/steenzout/go-primogen
+  gocyclo:
+    min-complexity: 10
+  lll:
+    line-length: 80
+  misspell:
+    locale: US
+
+linters:
+  enable:
+    - golint
+    - gocyclo
+    - gofmt
+    - goimports
+    - lll
+    - misspell
+    - unparam
+    - whitespace
+    - wsl 
