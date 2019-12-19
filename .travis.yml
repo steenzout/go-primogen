@@ -11,8 +11,8 @@ cache:
     - ${GOPATH}/src/golang.org/x
 go:
   - tip
-  - 1.10.x
-  - 1.9
+  - 1.13.x
+  - 1.12.x
 sudo: false
 
 env:
