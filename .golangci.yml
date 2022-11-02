@@ -10,7 +10,6 @@ linter-settings:
 
 linters:
   enable:
-    - golint
     - gocyclo
     - gofmt
     - goimports
